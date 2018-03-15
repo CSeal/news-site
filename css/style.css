@@ -1,0 +1,233 @@
+/*font-family: 'Pangolin', cursive;
+font-family: 'Fira Sans Extra Condensed', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Ubuntu Condensed', sans-serif;
+*/
+body > div.container-fluid {
+    padding: 0;
+}
+
+header#head > nav > div.container-fluid {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#135299+0,2993e5+95,2993e5+95,2993e5+100 */
+    background: rgb(19, 82, 153); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(19, 82, 153, 1) 0%, rgba(41, 147, 229, 1) 95%, rgba(41, 147, 229, 1) 95%, rgba(41, 147, 229, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(19, 82, 153, 1) 0%, rgba(41, 147, 229, 1) 95%, rgba(41, 147, 229, 1) 95%, rgba(41, 147, 229, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(19, 82, 153, 1) 0%, rgba(41, 147, 229, 1) 95%, rgba(41, 147, 229, 1) 95%, rgba(41, 147, 229, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#135299', endColorstr='#2993e5', GradientType=0); /* IE6-9 */
+}
+
+header#head div.navbar-header > button.navbar-toggle {
+    border: none;
+    background-color: #489de4;
+}
+
+header#head div.navbar-header > button.navbar-toggle:hover {
+    background-color: #00afef;
+}
+
+header#head div.navbar-header > button.navbar-toggle:hover > span {
+    background-color: #b8525f;
+}
+
+header#head div.navbar-header > button.navbar-toggle > span {
+    background-color: #0f0f0f;
+}
+
+header#head div.navbar-header {
+    min-height: 120px;
+}
+
+header#head div.navbar-header a.navbar-brand > img {
+    height: 90px;
+}
+
+header#head div.navbar-header form button[type='submit'] {
+    color: #2587d7;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+header#head div.navbar-header form button[type='submit'] > span.glyphicon {
+    color: #ed3937;
+}
+
+header#head div#registration {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+header#head div#registration > a {
+    color: #33ce3f;
+}
+
+header#head div#registration > a:hover {
+    text-decoration: none;
+    border-bottom: 4px solid #33ce3f;
+}
+
+header#head div#site-header-navbar-collapse span.glyphicon-search {
+    color: #489de4;
+}
+
+div#auth-data-reset {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div#auth-data-reset > a {
+    color: #ffffff;
+    display: block;
+}
+div#site-header-navbar-collapse ul > li > a{
+    text-transform: capitalize;
+    color: #0f0f0f;
+}
+div#site-header-navbar-collapse ul.nav.navbar-nav > li > a {
+    padding: 4px;
+    background-color: #489de4;
+    background-image: none;
+    border: 3px solid #00afef;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+div#site-header-navbar-collapse ul.nav.navbar-nav > li > a:nth-child(n + 1) {
+    margin-left: 5px;
+}
+
+div#site-header-navbar-collapse ul.nav.navbar-nav > li > a:not(.active):hover {
+    color: #a23333;
+    border-color: #a23333;
+    box-shadow: 0 0 4px 4px rgb(0, 175, 239);
+    -webkit-box-shadow: inset 0 0 4px 4px rgb(0, 175, 239);
+    -moz-box-shadow: inset 0 0 4px 4px rgb(0, 175, 239);
+    filter: progid:DXImageTransform.Microsoft.shadow(direction=45, color=rgb(0, 175, 239), strength=4);
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+div#site-header-navbar-collapse ul.nav.navbar-nav > li > a.active {
+    box-shadow: inset 0 0 10px 5px rgb(0, 175, 239);
+    -webkit-box-shadow: inset 0 0 10px 5px rgb(0, 175, 239);
+    -moz-box-shadow: inset 0 0 10px 5px rgb(0, 175, 239);
+    filter: progid:DXImageTransform.Microsoft.shadow(direction=45, color=rgb(0, 175, 239), strength=10);
+    text-shadow: 1px 1px 2px rgb(0, 175, 239), 0 2px 1em #ed3937;
+    color: #a23333;
+}
+
+header#head div#site-header-navbar-collapse ul.dropdown-menu.menu-head > li > a{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #fbd4d4;
+    font-size: 1.2em;
+	transition: all .2s ease-in .2s;
+}
+header#head div#site-header-navbar-collapse ul.dropdown-menu.menu-head > li > a:hover{
+    color: #d4fbd7;
+    font-size: 1.4em;
+	font-weight: 600;
+	background: none;
+}
+header#head div#site-header-navbar-collapse ul.dropdown-menu.menu-head{
+    border-radius: 20px;
+    background-color: #1860aa;
+}
+
+/*
+color:  #F57923;
+background-color: #00008b;
+*/
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+@media only screen and (max-width: 767px) {
+    header#head div.navbar-header > form.navbar-form {
+        border: none;
+        margin-left: 105px;
+        margin-right: 70px;
+    }
+
+    div#site-header-navbar-collapse {
+        border: none;
+    }
+
+    div#site-header-navbar-collapse ul.nav.navbar-nav > li > a {
+        padding: 8px;
+        border-radius: 4px;
+        margin: 5px 0;
+        font-size: 20px;
+    }
+
+    div#site-header-navbar-collapse ul.nav.navbar-nav > li > a.active {
+        box-shadow: inset 0 0 10px 15px rgb(0, 175, 239);
+        -webkit-box-shadow: inset 0 0 10px 5px rgb(0, 175, 239);
+        -moz-box-shadow: inset 0 0 10px 5px rgb(0, 175, 239);
+        filter: progid:DXImageTransform.Microsoft.shadow(direction=45, color=rgb(0, 175, 239), strength=10);
+    }
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    header#head > nav > div.container-fluid {
+        position: relative;
+    }
+
+    header#head div.navbar-header > form {
+        padding: 0;
+    }
+
+    div#site-header-navbar-collapse {
+        position: absolute;
+        left: 88px;
+        top: 78px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    header#head div.navbar-header > div.clearfix {
+        height: 110px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    header#head div#registration > a {
+        position: relative;
+    }
+
+    header#head div#registration > a > span {
+        position: absolute;
+        left: -1.2em;
+    }
+
+}
+
+@media only screen and (max-width: 403px) {
+    header#head div.navbar-header form button[type='submit'] {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (min-width: 390px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

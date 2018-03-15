@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="jquery-1.10.2.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		var a = $("div#testbl").css("color", "yellow");
+		console.log(a);
+		var t = $("input")[0].nodeValue("sjsiji");
+		//var t = $("input")[0].val("rwerwer");
+		console.log(t);
+	});
+	</script>
+</head>
+<body>
+	<div>
+		<div id="testbl" style="width: 300px; border: 2px solid black">width: 300px</div>
+		<input type="text" name="text"/>
+	</div>
+</body>
+</html>
